@@ -1,0 +1,36 @@
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Rust
+**/target/
+**/gen/schemas/
+
+# Python
+__pycache__/
+*.py[oc]
+build/
+wheels/
+*.egg-info
+.venv/
+.python-version
+src/blender_mcp/config.py
+
+# Tauri & Desktop OS
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+logs/
+*.log
+
+# Databases / Local configs
+*.db
+*.sqlite

@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blender-orange: #EA7600;
+  --color-blender-dark: #1A1A1A;
+  --color-blender-gray: #2A2A2A;
+  --color-blender-panel: #3A3A3A;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #1A1A1A;
+  color: white;
+  font-family: system-ui, -apple-system, sans-serif;
+}
